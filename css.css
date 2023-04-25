@@ -1,0 +1,160 @@
+* {
+
+text-align: center;
+background-color: black;
+}
+
+.text01 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+}
+
+.text02{
+  color: red;
+}
+
+.text03{
+  color: red;
+  font-size: 20px;
+}
+
+.select{
+  background-color: blue;  
+}
+
+.selectbig{
+  background-color: blue;  
+  font-weight: bold;
+}
+
+
+.big{
+  font-weight: bold;
+}
+
+.bug01{
+  position: absolute;
+  opacity: 0%;
+  background-color: red;
+  top: 10%;
+  left: 20%;
+  margin: 0;
+  height: 1%;
+  width: 15%;
+}
+
+.bug02{
+  position: absolute;
+  opacity: 0%;
+  background-color: red;
+  top: 10%;
+  left: 20%;
+  margin: 0;
+  height: 5%;
+  width: 25%;
+}
+
+.bug03{
+  position: absolute;
+  opacity: 0%;
+  background-color: red;
+  top: 10%;
+  left: 70%;
+  margin: 0;
+  height: 45%;
+  width: 10%;
+}
+
+.bug04{
+  position: absolute;
+  opacity: 0%;
+  background-color: red;
+  top: 60%;
+  left: 40%;
+  margin: 0;
+  height: 5%;
+  width: 25%;
+}
+
+.image{
+  position: absolute;
+  opacity: 0%;
+}
+
+.image01{
+  top: 10%;
+  left: 10%;
+}
+
+.image02{
+  top: 30%;
+  left: 60%;
+}
+
+.image03{
+  top: 70%;
+  left: 30%;
+}
+
+.image04{
+  top: 55%;
+  left: 60%;
+}
+
+.image05{
+  top: 30%;
+  left: 55%;
+}
+
+.image06{
+  top: 80%;
+  left: 70%;
+}
+
+.image07{
+  top: 35%;
+  left: 60%;
+}
+
+.image08{
+  top: 55%;
+  left: 15%;
+}
+
+.image09{
+  top: 15%;
+  left: 65%;
+}
+
+.image10{
+  top: 75%;
+  left: 10%;
+}
+
+
+.fadeIn {
+  animation: fadeIn 5s;
+}
+
+.fadeOut {
+  animation: fadeOut 5s;
+}
+
+.fadeIn2 {
+  animation: fadeIn 25s;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
